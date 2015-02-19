@@ -56,6 +56,7 @@
      .company{
         /*font-style: italic;*/
         text-align:right;
+        font-size: 16px;
      }
 
      .heading{
@@ -67,61 +68,27 @@
 
      .job-title{
         font-size: 16px;
-        font-weight: bold;
      }
 
 
      .techused{
         font-style: italic;
-        color:  #909090 ;
 
      }
 
      .contact{
         text-align:left;
      }
-     .software-skill {/*
-  -webkit-border-radius: 5;
-  -moz-border-radius: 5;
-  border-radius: 5px;
-  -webkit-box-shadow: 0px 0px 2px #666666;
-  -moz-box-shadow: 0px 0px 2px #666666;
-  box-shadow: 0px 0px 2px #666666;
-  color: #909090;
-  font-size: 10px;
-  padding: 3px 5px 3px 5px;
-  text-decoration: none;
-    -webkit-print-color-adjust:exact;
-    -webkit-filter:opacity(1);
-    */
-  font-weight: normal;
-  display: inline-block;
-  margin: 3px 0px;
-  padding: 2px 6px;
-  border: 1px solid #909090;
-  border-radius: .5em;
-  color: #272626;
-  box-shadow: 0 0 2px #909090;
-  cursor: default;
-    font-size: 13px;
-
-}
+     
 li
 {
     font-size:15px;
 }
 
-.software-skill:hover {
+.software-skill {
   text-decoration: none;
 }
-.length-of-position
-{
-        font-size: 16px;
-        float:left;
-        margin-left: 16px;
-        font-color:#909090;
 
-}
     .sub-paragraph 
     {
         border-bottom: 1px solid #DFDFE0 ;
@@ -163,10 +130,7 @@ li
 
     }
 
-    .software-skill {
-        background-color: transparent;
-        -webkit-print-color-adjust: exact;
-    }
+    
     .skill-sub-header
     {
         font-size: 1pt;
@@ -175,12 +139,14 @@ li
             }
     .coursework li
     {
-        margin-left: -40px;
+        margin-left: -15px;
         list-style-type: none;
         font-size: 14px;
     }
    
-
+    ul{
+        padding-left: 1.1em
+    }
     
 
 }
@@ -210,7 +176,7 @@ li
 
         <div class="row main-header">
             <div class="col-sm-7">
-              <p> <span style="font-weight:bold ; font-size:30px">ABHIJITH RAMALINGAM </span><br> Programming Geek <span style="font-size:16px;"> |</span> Aspiring Engineer <span style="font-size:16px;">|</span> Enthusiastic Learner  <br>Passionate about Data Science &amp; Software Engineering</p>
+              <p> <span style="font-weight:bold ; font-size:30px">ABHIJITH RAMALINGAM </span><br> Programming Enthusiast <span style="font-size:16px;"> |</span> Aspiring Engineer <span style="font-size:16px;">|</span> Energetic Learner  <br>Passionate about Data Science &amp; Software Engineering</p>
             
             </div>
 
@@ -228,7 +194,7 @@ li
          <div class="row">
             <div class="col-sm-3 col-xs-3"> 
                 <div class="heading heading2 sub-header">
-                    <i class="fa fa-wrench "></i> SKILL SET 
+                    <i class="fa fa-wrench "></i> TECHNICAL  
                 </div>              
                 <div class="skills">
                     <div class="push-down-more">
@@ -238,15 +204,15 @@ li
                         <div class="techused">
                             <div>
                                 <span style="font-size:12px">GENERAL</span><br>
-                                <btn class="software-skill">Java</btn>&nbsp;
-                                <btn class="software-skill">Python</btn>&nbsp;
-                                <btn class="software-skill">C&#35;</btn>&nbsp;
-                                <btn class="software-skill">C++</btn>&nbsp;
+                                <btn class="software-skill">Java</btn> &#8226;
+                                <btn class="software-skill">Python</btn> &#8226;
+                                <btn class="software-skill">C&#35;</btn> &#8226;
+                                <btn class="software-skill">C++</btn>
                                 <br><span style="font-size:12px">FRONT END</span><br>
-                                <btn class="software-skill">HTML</btn>&nbsp;
-                                <btn class="software-skill">CSS</btn>&nbsp;
-                                <btn class="software-skill">JavaScript</btn>&nbsp;
-                            </div>
+                                <btn class="software-skill">HTML</btn> &#8226;
+                                <btn class="software-skill">CSS</btn> &#8226;
+                                <btn class="software-skill">JavaScript</btn>
+                                                            </div>
                         </div>
                     </div>
                     <div>
@@ -254,13 +220,18 @@ li
                     <div class="techused">
                         <div>                              
                             <span style="font-size:12px">LIBRARIES/FRAMEWORKS </span><br>
-                            <btn class="software-skill">jQuery</btn>&nbsp;
-                            <btn class="software-skill">AngularJS</btn>&nbsp;
+                            <btn class="software-skill">jQuery</btn> &#8226;
+
+                            <btn class="software-skill">AngularJS</btn> &#8226;
+
                             <btn class="software-skill">Flask</btn><br>
                             <span style="font-size:12px">TESTING TOOLS</span><br>
-                            <btn class="software-skill">Protractor</btn>&nbsp;
-                            <btn class="software-skill">Karma</btn>&nbsp;
-                            <btn class="software-skill">Jasmine</btn>&nbsp;                          
+                            <btn class="software-skill">Protractor</btn> &#8226;
+
+                            <btn class="software-skill">Karma</btn> &#8226;
+
+                            <btn class="software-skill">Jasmine</btn> 
+                         
                          </div>
                     </div>
                     </div>
@@ -270,25 +241,39 @@ li
                     <div class="position  techused"><span style="font-size:12px">DATABASE</span></div>                   
 
                      <div class="techused">
-                                <btn class="software-skill">MySQL</btn>&nbsp;
-                                <btn class="software-skill">MongoDB</btn>&nbsp;
+                                <btn class="software-skill">MySQL</btn> &#8226;
+
+                                <btn class="software-skill">MongoDB</btn> 
+
                     </div>
-                    <div class="position push-down job-title push-up">DATA ANALYSIS</div>                   
+                    <div class="position  job-title ">DATA ANALYSIS</div>                   
 
                      <div class="techused end-section">
-                                <btn class="software-skill">R</btn>&nbsp;
-                                <btn class="software-skill">Pandas</btn>&nbsp;
-                                <btn class="software-skill">Numpy</btn>&nbsp;
-                                <btn class="software-skill">SciPy</btn>&nbsp;
-                                <btn class="software-skill">MapReduce</btn>&nbsp;
-                                <btn class="software-skill">Hadoop</btn>&nbsp;
+                                <btn class="software-skill">R</btn> &#8226;
+
+                                <btn class="software-skill">Pandas</btn> &#8226;
+
+                                <btn class="software-skill">Numpy</btn> &#8226;
+
+                                <btn class="software-skill">Matplotlib</btn>
+
+                    <div class="position  job-title push-up">OTHER </div>                   
+
+                                <btn class="software-skill">MapReduce</btn> &#8226;
+
+                                <btn class="software-skill">Hadoop</btn><br>
 
 
-                                <btn class="software-skill">Matplotlib</btn>&nbsp;
-                                <btn class="software-skill">scikit-learn</btn>&nbsp;
-                                <btn class="software-skill">Machine Learning</btn>&nbsp;
-                                <btn class="software-skill">Statistical Inference</btn>
-                                <btn class="software-skill">D3.js</btn>&nbsp;
+
+
+                                <btn class="software-skill">scikit-learn</btn> &#8226;
+
+                                <btn class="software-skill">Machine Learning</btn>
+
+                                <btn class="software-skill">Statistical Inference</btn> &#8226;
+
+                                <btn class="software-skill">D3.js</btn> &#8226;
+
 
 
                     </div>
@@ -384,36 +369,59 @@ li
              </div>   
             </div>
             <div class="col-sm-9 row">
-                <div class="heading heading2 sub-header"> <i class="fa fa-briefcase"></i>  WORK EXPERIENCE </div>
+                <div class="heading heading2 sub-header"> <i class="fa  fa-check-square-o"></i>  SUMMARY OF QUALIFICATIONS </div>
                 
                 
                 <div class="row ">
 
-                    <div class="position col-sm-8 job-title" >JavaScript Developer</div> 
-                    <div class="company col-sm-4">
-                        <img src="http://www.hubhead.com/wp-content/uploads/hubhead-logo_A.jpg" width="90" height="25" alt="" data-original="http://www.hubhead.com/wp-content/uploads/hubhead-logo_A.jpg" style="height:30px width:50px">
+
+
+
+                    <div class="col-sm-12 greybackground">
+                        <ul >
+
+
+                            <li>Strong understanding of Object-Oriented Programming and SDLC gained through work experience.</li>
+                            <li>Knowledge of Algorithms, Web Development and Data Mining from  online courses</li>
+                            <li>Good teamwork and communication skills from workshops, group projects and hackathons.</li>
+
+                        </ul>
+
                     </div>
-                     <div class="length-of-position">Sep-Dec 2014 | Markham,ON</div>
+                </div>
+            </div>
+                
+            <div class="col-sm-9 row">
+                <div class="heading heading2 sub-header"> <i class="fa fa-briefcase"></i>  WORK EXPERIENCE </div>
+                
+                
+                <div class="row push-down">
+
+                    <div class="col-sm-8"> <span class="job-title" >JavaScript Developer </span><span>| Sep-Dec 2014 | Markham,ON</span></div> 
+                    <div class="company col-sm-4">
+                        HubHead Corp.
+                    </div>
+                     
 
 
 
 
                     <div class="col-sm-12 greybackground">
                         <ul>
-                            <li>Managed automated test suites using a continuous integration server.</li>
-                            <li>Wrote browser automation scripts to perform unit and end to end tests.</li>
-                            <li>Wrote bug fixes for UI issues and improved user functionality.</li>
-                            <li>Engaged in the SDLC using agile methodologies to build a cloud-based data quality solution.</li>
+                            <li>Detected server-side bugs by managing automated test suites on a continuous integration server.</li>
+                            <li>Performed unit and end to end tests on a cloud-based product by writing browser automation scripts.</li>
+                            <li>Improved user functionality by writing bug fixes.</li>
+                            <li>Engaged in the SDLC using agile methodologies to build a scalable data quality solution.</li>
                            
                         </ul>
 
                         <div class="techused">Technologies used :&nbsp;
-                                <btn class="software-skill">JavaScript</btn>&nbsp;
-                                <btn class="software-skill">AngularJS</btn>&nbsp;
-                                <btn class="software-skill">Git</btn>&nbsp;
-                                <btn class="software-skill">Karma</btn>&nbsp;
-                                <btn class="software-skill">Protractor</btn>&nbsp;
-                                <btn class="software-skill">Jasmine</btn>&nbsp;
+                                <btn class="software-skill">JavaScript</btn> &#8226;
+                                <btn class="software-skill">AngularJS</btn> &#8226;
+                                <btn class="software-skill">Git </btn>&#8226;
+                                <btn class="software-skill">Karma</btn> &#8226;
+                                <btn class="software-skill">Protractor</btn> &#8226;
+                                <btn class="software-skill">Jasmine</btn> &#8226;
                                 <btn class="software-skill">Jenkins</btn>&nbsp;
 
 
@@ -421,37 +429,35 @@ li
                     </div>
                 </div>
                 <div class="row end-section">
-
-                    <div class="position col-sm-8 job-title" >R&amp;D Team Member</div> 
+                   <div class="col-sm-8"> <span class="job-title" >R&amp;D Team Member</span><span> | Jan-April 2014 | Ottawa,ON</span></div> 
                     <div class="company col-sm-4">
-                        <img src="http://www.protecode.com/wp-content/themes/protecode/images/logo.png"  height="25" width="120"> 
+                        Protecode Inc.
                     </div>
-                    <div class="length-of-position">Jan-April 2014 | Ottawa,ON</div>
 
 
                     <div class="col-sm-12 greybackground">
                         <ul>
-                            <li>Developed web crawlers to download over 100,000 projects into a relational database from code hosting websites like Github and SourceForge.</li>
-                            <li>Optimized the SQL queries of a data mining tool, thereby improving proccessing time by 25%.</li>
+                            <li> Downloaded over 100,000 projects into a relational database from code hosting websites like Github and SourceForge by devloping web crawlers.</li>
+                            <li>Reduced processing time by 25% of an internal data mining tool by optimizing its SQL queries, thereby allowing projects to be added faster to the main database.</li>
                             <li>Migrated internal company databases by writing maintainable data-acquisition software services.</li> 
                         </ul>
 
-                        <div class="techused ">Technologies used :&nbsp;
-                                <btn class="software-skill">C&#35;</btn>&nbsp;
-                                <btn class="software-skill">.NET Framework</btn>&nbsp;
-                                <btn class="software-skill">MySQL</btn>&nbsp;
-                                <btn class="software-skill">PostgreSQL</btn>&nbsp;
-                                <btn class="software-skill">Linux</btn>&nbsp;
-                                <btn class="software-skill">MS Excel</btn>&nbsp;
-                                <btn class="software-skill">RegEx</btn>&nbsp;
-                                <btn class="software-skill">SVN</btn>&nbsp;
+                        <div class="techused ">Technologies used :
+                                <btn class="software-skill">C&#35; </btn>&#8226;
+                                <btn class="software-skill">.NET Framework</btn>&#8226; 
+                                <btn class="software-skill">MySQL </btn>&#8226; 
+                                <btn class="software-skill">PostgreSQL </btn>&#8226; 
+                                <btn class="software-skill">Linux </btn>&#8226; 
+                                <btn class="software-skill">MS Excel </btn>&#8226; 
+                                <btn class="software-skill">RegEx </btn>&#8226; 
+                                <btn class="software-skill">SVN </btn>&nbsp; 
 
 
                         </div>
                     </div>
                 </div>
                 <div class="push-up heading heading2 sub-header"> <i class="fa fa-code"></i> PROJECTS</div>
-                <div class="row ">
+                <div class="row push-down">
 
                     <div class="position col-sm-8 job-title" >Market Simulator</div> 
                     <div class="col-sm-12 greybackground">
@@ -469,24 +475,24 @@ li
                         </ul>
                         
                         
-                        <div class="techused">Technologies used :&nbsp;
-                                <btn class="software-skill">Python</btn>&nbsp;
-                                <btn class="software-skill">Pandas</btn>&nbsp;
-                                <btn class="software-skill">SciPy</btn>&nbsp;
-                                <btn class="software-skill">Numpy</btn>&nbsp;
-                                <btn class="software-skill">Matplotlib</btn>&nbsp;
+                        <div class="techused">Technologies used :
+                                <btn class="software-skill">Python </btn>&#8226;
+                                <btn class="software-skill">Pandas </btn>&#8226;
+                                <btn class="software-skill">SciPy </btn>&#8226;
+                                <btn class="software-skill">Numpy </btn>&#8226;
+                                <btn class="software-skill">Matplotlib </btn>
 
 
                         </div>
                     </div>
                 </div>
-                <div class="row ">
+                <div class="row push-down">
 
                     <div class="position col-sm-8 job-title" >New York Subway Data Analysis</div> 
                     <div class="col-sm-12 greybackground">
                         <ul>
                             <li>
-                                Analysed NYC Subway data from external APIs to discover interesting patterns and trends.
+                                Analysed NYC Subway and Weather data from external APIs to discover interesting patterns.
                             </li>
                             <li>
                                 Applied statistical analysis techniques, machine learning, visualisation libraries 
@@ -498,21 +504,20 @@ li
                         </ul>
                         
                         
-                        <div class="techused">Technologies used :&nbsp;
-                                <btn class="software-skill">Python</btn>&nbsp;
-                                <btn class="software-skill">Pandas</btn>&nbsp;
-                                <btn class="software-skill">SciPy</btn>&nbsp;
-                                <btn class="software-skill">scikit-learn</btn>&nbsp;
-                                <btn class="software-skill">Numpy</btn>&nbsp;
-                                <btn class="software-skill">Matplotlib</btn>&nbsp;
-                                <btn class="software-skill">MapReduce</btn>&nbsp;
+                        <div class="techused">Technologies used :&#8226;
+                                <btn class="software-skill">Python </btn>&#8226;
+                                <btn class="software-skill">Pandas </btn>&#8226;
+                                <btn class="software-skill">scikit-learn </btn>&#8226;
+                                <btn class="software-skill">Numpy </btn>&#8226;
+                                <btn class="software-skill">Matplotlib </btn>&#8226;
+                                <btn class="software-skill">MapReduce </btn>
 
 
 
                         </div>
                     </div>
                 </div> 
-                                <div class="row">
+                <div class="row push-down">
 
                     <div class="position col-sm-8 job-title" >TransitCheck</div> 
                     <div class="col-sm-12 greybackground">
@@ -527,13 +532,13 @@ li
                         </ul>
                         
                         
-                        <div class="techused">Technologies used :&nbsp;
-                                <btn class="software-skill">HTML/CSS</btn>&nbsp;
-                                <btn class="software-skill">JavaScript</btn>&nbsp;
-                                <btn class="software-skill">Node.js</btn>&nbsp;
-                                <btn class="software-skill">Java</btn>&nbsp;
-                                <btn class="software-skill">MonogoDB</btn>&nbsp;
-                                <btn class="software-skill">Bootstrap</btn>&nbsp;
+                        <div class="techused">Technologies used :
+                                <btn class="software-skill">HTML/CSS </btn>&#8226;
+                                <btn class="software-skill">JavaScript </btn>&#8226;
+                                <btn class="software-skill">Node.js </btn>&#8226;
+                                <btn class="software-skill">Java </btn>&#8226;
+                                <btn class="software-skill">MonogoDB </btn>&#8226;
+                                <btn class="software-skill">Bootstrap </btn>
 
 
 
@@ -541,7 +546,7 @@ li
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row push-down">
                     <div class="position col-sm-8 job-title" >Braillestorm </div> 
                     <div class="company col-sm-4"></div>
                     <div class="col-sm-12 greybackground">
@@ -550,15 +555,15 @@ li
                                 Led a team which won the National Robot Olympiad(Dubai) by building and programming a robot with an easy to use interface for visually impaired people to print Braille.
                             </li>
                         </ul>
-                        <div class="techused">Technologies used :&nbsp;
-                                <btn class="software-skill">LEGO Mindstorms</btn>&nbsp;
-                                <btn class="software-skill">C++</btn>&nbsp;
+                        <div class="techused">Technologies used :
+                                <btn class="software-skill">LEGO Mindstorms </btn>&#8226;
+                                <btn class="software-skill">C++</btn>
 
 
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row push-down">
                 <div class="position col-sm-8 job-title" >Rubik's Cube Solver</div> 
                 <div class="company col-sm-4"></div>
                  <div class="col-sm-12 greybackground">
@@ -568,12 +573,13 @@ li
                         
                         </li>
                     </ul>
-                    <div class="techused">Technologies used :&nbsp;
-                        <btn class="software-skill">Java</btn>&nbsp;
+                    <div class="techused">Technologies used :
+                        <btn class="software-skill">Java</btn>
                     </div>
                 </div>
             </div>
-             <div class="row end-section">
+            <!--
+            <div class="row end-section push-down">
                     <div class="position col-sm-8 job-title" >Mathematical Art </div> 
                     <div class="company col-sm-4"></div>
                     <div class="col-sm-12 greybackground">
@@ -582,14 +588,13 @@ li
                                 Applied various trigonometric equations to generate beautiful figures using only straight lines
                             </li>
                         </ul>
-                        <div class="techused">Technologies used :&nbsp;
-                                <btn class="software-skill">HTML Graphics Libraries</btn>&nbsp;
-                                <btn class="software-skill">JavaScript</btn>&nbsp;
-
-
+                        <div class="techused">Technologies used :
+                                <btn class="software-skill">HTML Graphics Libraries </btn>&#8226;
+                                <btn class="software-skill">JavaScript</btn>
                         </div>
                     </div>
-                </div>
+            </div>
+        -->
            
             
              </div>
