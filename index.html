@@ -15,9 +15,8 @@
 
 
     <link href="css/bootstrap.min.css" rel="stylesheet" media="all">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
     <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
 
     <!-- Custom CSS -->
@@ -26,6 +25,8 @@
         border-bottom: 2px solid #DFDFE0 ;
         padding-bottom: 5px;
         margin-bottom: 5px;
+                -webkit-print-color-adjust:exact;
+
 
     }
     .main-header{
@@ -33,12 +34,12 @@
         padding-bottom: 1px;
         margin-bottom: 15px;
 
+
     }
 
      .content{
-        color:  #505050 !important;
-        -webkit-print-color-adjust:exact;
         font-family: 'Raleway', sans-serif;
+
 
      }
 
@@ -48,12 +49,13 @@
 
      .heading2{
         font-size: 20px;
-        font-family: 'Lato'
+        font-family: 'Raleway'
      }
 
      .heading3{
         font-size: 14px;
-        font-weight: bold;
+        font-weight: 100;
+
      }
 
 
@@ -61,26 +63,21 @@
         /*font-style: italic;*/
         text-align:right;
         font-size: 16px;
-     }
-
-     .heading{
-        -webkit-print-color-adjust:exact;
-
-
 
      }
+
+     
      .sub-skill-header
      {
       font-size: 14px;
-        font-family: 'Lato';
-        font-weight :bold;
+        font-family: 'Raleway';
      }
 
      .job-title{
-        font-size: 16px;
-        font-family: 'Lato';
-        font-weight :bold;
-     }
+        font-size: 14px;
+        font-family: 'Raleway';
+        font-weight: 500;
+       }
 
 
      .techused{
@@ -133,15 +130,19 @@
     }
 
     @media print {
-        a,
+              a,
         a:link:after,
         a:visited:after {
             content: "" !important;
-            color:#337ab7 !important;
+            color: #0066CC !important;
         }
 
 
+       
+  
     }
+    
+      
 
 
     .skill-sub-header
@@ -165,16 +166,7 @@
 }
 
 
-/*    @media print {
-         .container {
-         width: auto;
-        }
-
-        body {
-         -webkit-print-color-adjust:exact;
-         }
-
-    }*/
+    
 
     </style>
 
@@ -287,16 +279,14 @@
                 </div>
 
                 <div class="row">
-                  <div class="col-xs-6 col-sm-12">
-                      <div class="position  job-title" style="font-size:14px">UNIVERSITY OF WATERLOO</div>
+                  <div class="col-xs-6 col-sm-12 end-section">
+                      <div class="position  job-title" >UNIVERSITY OF WATERLOO</div>
 
                        <div class ="techused " style="font-size:12px">BASc in Mechatronics Engineering<br> Expected Graduation: May 2018 </div>
                   </div>
 
                   <div class="col-xs-6 col-sm-12">
-                       <div class="position  job-title" style="font-size:14px">DUBAI MODERN HIGH SCHOOL</div>
-
-                       <div class ="techused end-section" style="font-size:12px">Graduated in 2013, 97.75% average</div>
+                       
                   </div>
                 </div>
 
@@ -446,7 +436,7 @@
 
                 <div class="row push-down">
 
-                    <div class="col-sm-8"> <span class="job-title" >JavaScript Developer </span><span>| Sep-Dec 2014 | Markham,ON</span></div>
+                    <div class="col-sm-8"> <span class="company" >JavaScript Developer </span><span>| Sep-Dec 2014 | Markham,ON</span></div>
                     <div class="company col-sm-4">
                         HubHead Corp.
                     </div>
@@ -458,7 +448,7 @@
                     <div class="col-sm-12 greybackground">
                         <ul>
                             <li>Detected server-side bugs by managing automated test suites on a continuous integration server.</li>
-                            <li>Performed unit and end to end tests on a cloud-based product by writing browser automation scripts.</li>
+                            <li>Performed  end to end tests on a cloud-based product by writing browser automation scripts.</li>
                             <li>Improved user functionality by writing bug fixes.</li>
                             <li>Engaged in the SDLC using agile methodologies to build a scalable data quality solution.</li>
 
@@ -478,7 +468,7 @@
                     </div>
                 </div>
                 <div class="row end-section">
-                   <div class="col-sm-8"> <span class="job-title" >R&amp;D Team Member</span><span> | Jan-April 2014 | Ottawa,ON</span></div>
+                   <div class="col-sm-8"> <span class="company" >R&amp;D Team Member</span><span> | Jan-April 2014 | Ottawa,ON</span></div>
                     <div class="company col-sm-4">
                         Protecode Inc.
                     </div>
@@ -527,7 +517,6 @@
                         <div class="techused">Technologies used :
                                 <btn class="software-skill">Python </btn>&#8226;
                                 <btn class="software-skill">Pandas </btn>&#8226;
-                                <btn class="software-skill">SciPy </btn>&#8226;
                                 <btn class="software-skill">Numpy </btn>&#8226;
                                 <btn class="software-skill">Matplotlib </btn>
 
@@ -553,13 +542,12 @@
                         </ul>
 
 
-                        <div class="techused">Technologies used :&#8226;
+                        <div class="techused">Technologies used :
                                 <btn class="software-skill">Python </btn>&#8226;
                                 <btn class="software-skill">Pandas </btn>&#8226;
                                 <btn class="software-skill">scikit-learn </btn>&#8226;
                                 <btn class="software-skill">Numpy </btn>&#8226;
-                                <btn class="software-skill">Matplotlib </btn>&#8226;
-                                <btn class="software-skill">MapReduce </btn>
+                                <btn class="software-skill">Matplotlib </btn>
 
 
 
