@@ -1,682 +1,724 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <meta name="google-site-verification" content="YRNFKay32wAdipelICNw9lCl6n7JmyWzZU_XMcc6ysU" />
 
-    <title>Abhijith Ramalingam</title>
+    <title> Abhijith Ramalingam </title>
 
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
 
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="all">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
-    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <!-- Retina.js - Load first for faster HQ mobile images. -->
+    <script src="assets/js/plugins/retina/retina.min.js"></script>
 
+    <!-- Font Awesome -->
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-    <!-- Custom CSS -->
-    <style>
-    .sub-header{
-        border-bottom: 2px solid #DFDFE0 ;
-        padding-bottom: 5px;
-        margin-bottom: 5px;
-                -webkit-print-color-adjust:exact;
+    <!-- Default Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,600,500,700,800,900' rel='stylesheet' type='text/css'>
 
+    <!-- Modern Style Fonts (Include these is you are using body.modern!) -->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cardo:400,400italic,700' rel='stylesheet' type='text/css'>
 
-    }
-    .main-header{
-        border-bottom: 2px solid #B0B0B1;
-        padding-bottom: 1px;
-        margin-bottom: 15px;
+    <!-- Vintage Style Fonts (Include these if you are using body.vintage!) -->
+    <link href='http://fonts.googleapis.com/css?family=Sanchez:400italic,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cardo:400,400italic,700' rel='stylesheet' type='text/css'>
 
+    <!-- Plugin CSS -->
+    <link href="assets/css/plugins/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/plugins/owl-carousel/owl.theme.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/plugins/owl-carousel/owl.transitions.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/plugins/magnific-popup.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/plugins/jquery.fs.wallpaper.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/plugins/animate.css" rel="stylesheet" type="text/css">
 
-    }
+    <!-- Vitality Theme CSS -->
+    <!-- Uncomment the color scheme you want to use. -->
+    <!-- <link href="assets/css/vitality-red.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="assets/css/vitality-aqua.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="assets/css/vitality-blue.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="assets/css/vitality-green.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="assets/css/vitality-orange.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="assets/css/vitality-pink.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="assets/css/vitality-purple.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="assets/css/vitality-tan.css" rel="stylesheet" type="text/css"> -->
+    <link href="assets/css/vitality-turquoise.css" rel="stylesheet" type="text/css">
+    <!-- <link href="assets/css/vitality-yellow.css" rel="stylesheet" type="text/css"> -->
 
-     .content{
-        font-family: 'Raleway', sans-serif;
-
-
-     }
-
-
-
-    
-
-     .heading2{
-        font-size: 20px;
-        font-family: 'Raleway'
-     }
-
-     .heading3{
-        font-size: 14px;
-        font-weight: 100;
-
-     }
-
-
-     .company{
-        /*font-style: italic;*/
-        text-align:right;
-        font-size: 16px;
-
-     }
-
-     
-     .sub-skill-header
-     {
-      font-size: 14px;
-        font-family: 'Raleway';
-     }
-
-     .job-title{
-        font-size: 14px;
-        font-family: 'Raleway';
-        font-weight: 500;
-       }
-
-
-     .techused{
-        font-style: italic;
-
-     }
-
-     .contact{
-        text-align:left;
-     }
-
-    li
-    {
-        font-size:15px;
-    }
-
-    .software-skill {
-      text-decoration: none;
-      font-size: 14px;
-    }
-
-    .sub-paragraph
-    {
-        border-bottom: 1px solid #DFDFE0 ;
-        padding-bottom: 5px;
-        margin-bottom: 5px;
-    }
-    .sub-paragraph-last-child
-    {
-        border-bottom: 0px solid #fff ;
-        padding-bottom: 5px;
-        margin-bottom: 5px;
-    }
-    .end-section
-    {
-        padding-bottom: 5px;
-        margin-bottom: 10px;
-    }
-
-
-    .push-down{
-        margin-bottom: 6px;
-    }
-    .push-down-more{
-        margin-bottom: 6px;
-    }
-    .push-up
-    {
-        margin-top: 3px;
-    }
-
-    @media print {
-              a,
-        a:link:after,
-        a:visited:after {
-            content: "" !important;
-            color: #0066CC !important;
-        }
-
-
-       
-  
-    }
-    
-      
-
-
-    .skill-sub-header
-    {
-        font-size: 1pt;
-        font-style: italic;
-        color:  #909090 ;
-            }
-    .coursework li
-    {
-        margin-left: -15px;
-        list-style-type: none;
-        font-size: 14px;
-    }
-
-    ul{
-        padding-left: 1.1em;
-        margin-bottom: -1px;
-    }
-
-
-}
-
-
-    
-
-    </style>
-
-    
-
+    <!-- IE8 support for HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 
-<body>
-    <!-- Page Content -->
-    <div class="container content">
+<!-- Alternate Body Classes: .modern and .vintage -->
 
-        <div class="row main-header">
-            <div class="col-sm-7">
-              <p> <span style="font-weight:bold ; font-size:30px">ABHIJITH RAMALINGAM </span><br> Programming Enthusiast <span style="font-size:16px;"> |</span> Aspiring Engineer <span style="font-size:16px;">|</span> Energetic Learner  <br>Passionate about Data Science &amp; Software Engineering</p>
+<body id="page-top">
 
+    <!-- Navigation -->
+    <!-- Note: navbar-default and navbar-inverse are both supported with this theme. -->
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-expanded">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <img src="assets/img/creative/logo.png" class="img-responsive" alt="">
+                </a>
             </div>
 
-            <div class="col-sm-4 col-sm-offset-1 heading contact" style="font-size:13px; padding-top:5px; ">
-                <i class="fa  fa-envelope "></i>
-                Email &nbsp;&nbsp;&nbsp;&nbsp;: <a href="mailto:a2ramali@uwaterloo.ca" > a2ramali@uwaterloo.ca </a>
-                <br><i class="fa  fa-chevron-circle-right "></i>
-                Website : <a href="http://www.aramalingam.me" >www.aramalingam.me</a>
-                <br><i class="fa fa-github "></i>
-                GitHub &nbsp;&nbsp;: <a href="https://github.com/Abhijith1995" > github.com/Abhijith1995</a>
-                <br><i class="fa fa-linkedin "></i>
-                LinkedIn : <a href="https://ca.linkedin.com/in/abramalingam">ca.linkedin.com/in/abramalingam</a>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">What I Do</a>
+                    </li>
+                    
+                    <li>
+                        <a class="page-scroll" href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#work">Work Experience</a>
+                    </li>
+                </ul>
             </div>
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container -->
+    </nav>
 
-         <div class="row">
-            <div class="col-sm-3 col-xs-12">
-                <div class="heading heading2 sub-header">
-                    <i class="fa fa-wrench "></i> TECHNICAL
-                </div>
-                <div class="skills">
-                    <div class="push-down-more"></div>
-                    <div class="row">
-                      <div class="col-xs-6 col-sm-12">
-                        <div class="position job-title">
-                            PROGRAMMING
-                        </div>
-                        <div class="techused">
-                            <div>
-                                <btn class="software-skill">Java</btn> &#8226;
-                                <btn class="software-skill">Python</btn> &#8226;
-                                <btn class="software-skill">C&#35;</btn> &#8226;
-                                <btn class="software-skill">C++</btn>
-                                
-                                                            </div>
-                        </div>
-                         <div class="position  job-title">DATA ANALYSIS</div>
+    <header style="background-image: url('assets/img/creative/bg-header.jpg');">
+        <div class="intro-content">
+            <div style="height:25em;"></div>
+            <div class="brand-name">Abhijith Ramalingam</div>
+            <hr class="colored">
+            <div class="brand-name-subtext">
 
-                     <div class="techused ">
-                                <btn class="software-skill">R</btn> &#8226;
+                <br><br>
+                <a class="col-md-4" href="https://ca.linkedin.com/in/abramalingam">
+                   <i class="fa fa-linkedin"></i> 
+                </a>
 
-                                <btn class="software-skill">Pandas</btn> &#8226;
+                <a class="col-md-4" href="mailto:abhijith.ramalingam@live.com">
+                    <i class="fa fa-envelope"></i>
 
-                                <btn class="software-skill">Numpy</btn> &#8226;
+                </a>
+                                <a class="col-md-4" href="http://www.github.com/Abhijith1995">
 
-                                <btn class="software-skill">Matplotlib</btn><br>
-                                 <btn class="software-skill">scikit-learn</btn> &#8226;
+                                <i class="fa fa-github"></i>  
 
-
-
-
-                                <btn class="software-skill">Hadoop</btn>
-
-
-
-
-                    </div>
-                      </div>
-
-                    <div class="col-xs-6 col-sm-12 end-section">
-                    <div class="position job-title">WEB</div>
+            </a>
+            
                 
-                    <div class="techused">
-                        <btn class="software-skill">HTML</btn> &#8226;
-                                                <btn class="software-skill">CSS</btn> &#8226;
-
-                        <btn class="software-skill">JavaScript</btn>
-                        <span class="sub-skill-header">Libraries/Frameworks </span><br>
-                        <btn class="software-skill">jQuery</btn> &#8226;
-
-                        <btn class="software-skill">AngularJS</btn> &#8226;
-
-                        <btn class="software-skill">Flask </btn>&#8226;
-
-                        <btn class="software-skill">D3.js</btn> <br>
-                        
-                        <span class="sub-skill-header">Database </span><br>
-                        <btn class="software-skill">MySQL</btn> &#8226;
-
-                        <btn class="software-skill">MongoDB</btn>
-
-                    </div>
-
-
-
-                    
-                    
-                  </div>
-                </div>
-                 </div>
-
-                <div class="heading heading2 sub-header">
-                  <i class="fa fa-university "></i>
-                  EDUCATION
-                </div>
-
-                <div class="row">
-                  <div class="col-xs-6 col-sm-12 end-section">
-                      <div class="position  job-title" >UNIVERSITY OF WATERLOO</div>
-
-                       <div class ="techused " style="font-size:12px">BASc in Mechatronics Engineering<br> Expected Graduation: May 2018 </div>
-                  </div>
-
-                  <div class="col-xs-6 col-sm-12">
-                       
-                  </div>
-                </div>
-
-
-
-                <div class="heading heading2 sub-header">  <i class="fa fa-book"></i> COURSEWORK </div>
-                <div class="row">
-                <div class="col-xs-6 col-sm-12 end-section">
-             <div class="job-title " >Certified online courses</div>
-
-                             <div class="techused">
-                                <ul class="coursework">
-                                <li class="sub-skill-header">Wharton School<li>
-                                <li><a href="https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=KDN2L9TYRB">Intro to Financial Accounting</a></li>
-                                <li class="sub-skill-header">Georgia Tech</li>
-                                <li>
-                                    <a href="https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=KUKAQBKA3L">
-                                        Computational Investing</a></li>
-                                        <li class="sub-skill-header">Johns Hopkins University</li>
-                                <li><a href="https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=X9T2VLPCNZ">R Programming</a></li>
-                                <li><a href="https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=XCGZW9RDTA">Exploratory Data Analysis</a></li>
-                                <li><a href="https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=K7HMFEJ5T4">Getting and Cleaning Data </a></li>
-
-                                <li><a href="https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=M4CF5QZNS9">Data Scientist's Toolbox</a></li>
-
-
-                            </ul>
-                        </div>
-           </div>
-
-            <div class="col-xs-6 col-sm-12 end-section">
-             <div class="job-title ">Audited online courses</div>
-                    <div class="techused">
-                        <div>
-
-                             <div>
-                                <ul class="coursework">
-
-                                <li class="sub-skill-header">Stanford University<li>
-                                <li><a href="https://www.coursera.org/course/ml">Machine Learning</a></li>
-                                <li class="sub-skill-header">UC Berkley <li>
-                                <li><a href="https://www.edx.org/course/artificial-intelligence-uc-berkeleyx-cs188-1x-0">Artificial Intelligence &nbsp;&nbsp;(ongoing)</a></li>
-
-                                <li class="sub-skill-header">Udacity</li>
-                                <li><a href="https://www.udacity.com/course/ud359">Intro to Data Science</a></li>
-                                <li><a href="https://www.udacity.com/course/ud617">Intro to Hadoop and MapReduce</a></li>
-                                <li><a href="https://www.udacity.com/course/ud262">Machine Learning</a></li>
-
-
-                            </ul>
-                        </div>
-                    </div>
-             </div>
-           </div>
-          
-           <div class="col-xs-6 col-sm-12">
-              <div class="job-title">At University</div>
-                    <div class="techused end-section">
-                        <div>
-
-                             <div class="">
-                                <ul class="coursework">
-
-                                <li><a href="http://www.ucalendar.uwaterloo.ca/1415/COURSE/course-MTE.html#MTE201">Statistical Analysis&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(ongoing)</a></li>
-                                <li><a href="http://www.ucalendar.uwaterloo.ca/1415/COURSE/course-MTE.html#MTE140">Data Structures and Algorithms</a></li>
-
-                            </ul>
-                        </div>
-                    </div>
-             </div>
-           </div>
-         </div>
-        
-          <div class="heading heading2 sub-header">
-                  <i class="fa fa-star "></i>
-                  HOBBIES  
-          </div>
-          <div class="row techused">
-                  <div class="col-xs-6 col-sm-12 end-section">
-                      <ul class="coursework">
-
-                                <li>
-                                  Enjoys recreational maths, programming challenges and binge watching TV dramas.
-                                </li>                              
-                       </ul>
-                    </div>
-                  <div class="col-xs-6 col-sm-12 end-section">
-                      <ul class="coursework">
-
-                               
-                                <li >
-                                  Occasionally collaborates with friends to make short amateur films with a focus on graphics and special effects.
-                                </li>
-                                      
-                
-
-
-                            </ul>
-                  </div>
-                </div>
-               
-                <!--
-                <div class="heading heading2 sub-header">
-                  <i class="fa fa-trophy "></i>
-                  ACHIEVEMENTS  
-                </div>
-          <div class="row techused">
-                  <div class="col-xs-6 col-sm-12">
-                      <ul class="coursework">
-
-                                <li>University of Waterloo-President's Scholarship for 95% final avg</li>
-                                <li>Mathematics Prize - Grade 12 - Scored 100% in Mathematics Finals</li> 
-                                <li></li>                 
-                                <li>LINE 3</li>                 
-                                <li>LINE 4</li>                 
-                
-
-
-                            </ul>
-                  </div>
-                </div>
-            -->
-            </div>
-
-            <div class="col-sm-9 col-xs-12">
-              <!--
-                <div class="heading heading2 sub-header"> <i class="fa  fa-check-square-o"></i>  SUMMARY OF QUALIFICATIONS </div>
-
-
-                <div class="row">
-
-
-
-
-                    <div class="col-sm-12 greybackground">
-                        <ul >
-
-
-                            <li>Strong understanding of Object-Oriented Programming and SDLC gained through work experience.</li>
-                            <li>Knowledge of Algorithms, Web Development and Data Mining from  online courses</li>
-                            <li>Good teamwork and communication skills from workshops, group projects and hackathons.</li>
-
-                        </ul>
-
-                    </div>
-                </div>
-              -->
-                <div class="heading heading2 sub-header"> <i class="fa fa-briefcase"></i>  WORK EXPERIENCE </div>
-
-
-                <div class="row push-down end-section">
-
-                    <div class="col-sm-8"> <span class="company" >JavaScript Developer </span><span>| Sep-Dec 2014 | Markham,ON</span></div>
-                    <div class="company col-sm-4">
-                        HubHead Corp.
-                    </div>
-
-
-
-
-
-                    <div class="col-sm-12 greybackground">
-                        <ul>
-                            <li>Detected server-side bugs by managing automated test suites on a continuous integration server.</li>
-                            <li>Performed  end to end tests on a cloud-based product by writing browser automation scripts.</li>
-                            <li>Improved user functionality by writing bug fixes.</li>
-                            <li>Engaged in the SDLC using agile methodologies to build a scalable data quality solution.</li>
-
-                        </ul>
-
-                        <div class="techused">Technologies used :&nbsp;
-                                <btn class="software-skill">JavaScript</btn> &#8226;
-                                <btn class="software-skill">AngularJS</btn> &#8226;
-                                <btn class="software-skill">Git </btn>&#8226;
-                                <btn class="software-skill">Karma</btn> &#8226;
-                                <btn class="software-skill">Protractor</btn> &#8226;
-                                <btn class="software-skill">Jasmine</btn> &#8226;
-                                <btn class="software-skill">Jenkins</btn>&nbsp;
-
-
-                        </div>
-                    </div>
-                </div>
-                <div class="row end-section">
-                   <div class="col-sm-8"> <span class="company" >R&amp;D Team Member</span><span> | Jan-April 2014 | Ottawa,ON</span></div>
-                    <div class="company col-sm-4">
-                        Protecode Inc.
-                    </div>
-
-
-                    <div class="col-sm-12 greybackground">
-                        <ul>
-                            <li> Downloaded over 100,000 projects into a relational database from code hosting websites like Github and SourceForge by devloping web crawlers.</li>
-                            <li>Reduced processing time by 25% of an internal data mining tool by optimizing its SQL queries, thereby allowing projects to be added faster to the main database.</li>
-                            <li>Migrated internal company databases by writing maintainable data-acquisition software services.</li>
-                        </ul>
-
-                        <div class="techused ">Technologies used :
-                                <btn class="software-skill">C&#35; </btn>&#8226;
-                                <btn class="software-skill">.NET Framework</btn>&#8226;
-                                <btn class="software-skill">MySQL </btn>&#8226;
-                                <btn class="software-skill">PostgreSQL </btn>&#8226;
-                                <btn class="software-skill">Linux </btn>&#8226;
-                                <btn class="software-skill">MS Excel </btn>&#8226;
-                                <btn class="software-skill">RegEx </btn>&#8226;
-                                <btn class="software-skill">SVN </btn>&nbsp;
-
-
-                        </div>
-                    </div>
-                </div>
-                <div class="push-up heading heading2 sub-header"> <i class="fa fa-code"></i> PROJECTS</div>
-                <div class="row push-down end-section">
-
-                    <div class="position col-sm-8 " ><span class="company"> New York Subway Data Analysis </span> <span> | Data Scientist | Sept 2014 </span></div>
-                    <div class="col-sm-12 greybackground">
-                        <ul>
-                            <li>
-                                Analysed NYC Subway and Weather data from external APIs to discover interesting patterns.
-                            </li>
-                            <li>
-                                Understood the distribution of the dataset by applying parametric and non-parametric tests like Welch's t-test.
-                              </li>
-                              <li>Applied unsupervised machine learning techniques to cluster data.</li>
-                              <li> Used visualisation libraries to understand how crowds moved between stations based on weather trends.
-                            </li>
-
-
-                        </ul>
-
-
-                        <div class="techused">Technologies used :
-                                <btn class="software-skill">Python </btn>&#8226;
-                                <btn class="software-skill">Pandas </btn>&#8226;
-                                <btn class="software-skill">scikit-learn </btn>&#8226;
-                                <btn class="software-skill">Numpy </btn>&#8226;
-                                <btn class="software-skill">Matplotlib </btn>
-
-
-
-                        </div>
-                    </div>
-                </div>
-                <div class="row push-down end-section">
-
-                    <div class="position col-sm-8 " ><span class="company"> Market Simulator </span> <span> 
-                      | Devloper | Dec 2014 </span></div>
-                    <div class="col-sm-12 greybackground">
-                        <ul>
-                             <li>
-                               Developed a program which accepted buy and sell orders for a given stock at dates in the past and a starting capital of $100,000 and then calculated how much money was  made (or lost) based on historical data obtained from Yahoo Finance API.
-                            </li>
-                            <li>
-                                Investigated investment stratergies like Bollinger Bands which looked for events when stock prices went above or below their usual price. Based on events, buy and sell orders were generated whose performace was then evaluated using the above simulator.
-                            </li>
-                            <li> 
-                                Used machine learning algorithms to understand and improve perfromance of trading algorithms.
-                              </li>
-
-
-                        </ul>
-
-
-                        <div class="techused">Technologies used :
-                                <btn class="software-skill">Python </btn>&#8226;
-                                <btn class="software-skill">Pandas </btn>&#8226;
-                                <btn class="software-skill">Numpy </btn>&#8226;
-                                                                <btn class="software-skill"> scikit-learn </btn>&#8226;
-
-                                <btn class="software-skill">Matplotlib </btn>
-
-
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="row push-down end-section">
-
-                    <div class="position col-sm-8 job-title" ><span class="company"> TransitCheck </span> <span> | Database Developer | April 2014</span></div>
-                    <div class="col-sm-12 greybackground">
-                        <ul>
-                            <li>
-                                Developed the front end for a web application that solves the day-to-day problems of unexpected delays in transit.
-                            </li>
-                            <li>
-                                Built a web crawler to routinely acquire information about TTC services which was then stored in a NoSQL database for fast retrieval.
-                            </li>
-                            <li>
-                                Exposed to backend technologies like Express and Node.js.
-                            </li>
-
-
-                        </ul>
-
-
-                        <div class="techused">Technologies used :
-                                <btn class="software-skill">HTML/CSS </btn>&#8226;
-                                <btn class="software-skill">JavaScript </btn>&#8226;
-                                <btn class="software-skill">Java </btn>&#8226;
-                                <btn class="software-skill">MonogoDB </btn>&#8226;
-                                <btn class="software-skill">Bootstrap </btn>
-
-
-
-                        </div>
-                    </div>
-                </div>
-                <div class="row push-down end-section">
-
-                    <div class="position col-sm-8 job-title" ><span class="company"> Search in Pacman </span> <span> |  Developer | April 2014</span></div>
-                    <div class="col-sm-12 greybackground">
-                        <ul>
-                            <li>
-                                Found paths through a maze world for a pacman agent by implementing search algorithms in Python as part of a course project for an online course on Artifical Intelligence.
-                            </li>
-                            
-
-
-                        </ul>
-
-
-                        
-                    </div>
-                </div>
-<!--
-                <div class="row push-down">
-                    <div class="position col-sm-8 job-title" >Braillestorm </div>
-                    <div class="company col-sm-4"></div>
-                    <div class="col-sm-12 greybackground">
-                        <ul>
-                            <li>
-                                Led a team which won the National Robot Olympiad(Dubai) by building and programming a robot with an easy to use interface for visually impaired people to print Braille.
-                            </li>
-                        </ul>
-                        <div class="techused">Technologies used :
-                                <btn class="software-skill">LEGO Mindstorms </btn>&#8226;
-                                <btn class="software-skill">C++</btn>
-
-
-                        </div>
-                    </div>
-                </div>
-                <div class="row push-down">
-                <div class="position col-sm-8 job-title" >Rubik's Cube Solver</div>
-                <div class="company col-sm-4"></div>
-                 <div class="col-sm-12 greybackground">
-                    <ul>
-                        <li>
-                            Made a Java program which accepts numbers as inputs for faces of a rubik's cube and then generates steps to solve the cube.
-
-                        </li>
-                    </ul>
-                    <div class="techused">Technologies used :
-                        <btn class="software-skill">Java</btn>
-                    </div>
-                </div>
             </div>
             
-            <div class="row end-section push-down">
-                    <div class="position col-sm-8 job-title" >Mathematical Art </div>
-                    <div class="company col-sm-4"></div>
-                    <div class="col-sm-12 greybackground">
-                        <ul>
+            </div>
+       <!-- <div class="scroll-down">
+            <a class="btn page-scroll" href="#about"><i class="fa fa-angle-down fa-fw"></i></a>
+        </div> -->
+    </header>
+
+
+    <section id="about">
+        <div class="container wow fadeIn">
+            <div class="row">
+                
+                <div class="col-md-12 text-center">
+                    <h1>Hi, I'm Abhijith </h1>
+                    <hr class="colored">
+                    <p>I am a second year engineering student with a passion for programming robots and data analytics. I love solving difficult and engaging real world problems. I have worked in software development in the past where my supervisors and colleagues have described me as a motivated and resourceful individual with a strong ability to learn.
+                    </p>
+                    <a  href="resume.pdf"><p> <i class="fa fa-angle-double-right"></i> You can view my resume here <p></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <aside class="cta-quote" style="background-image: url('assets/img/creative/bg-aside.jpg');">
+        <div class="container wow fadeIn">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <span class="quote">Programming is about coming up with  <span class="text-primary">creative solutions</span>  for problems which impact <span class="text-primary"> real people </span> <span class="text-primary"></span></span>
+                    <!-- <a class="btn btn-outline-light page-scroll" href="#contact">Let's Find It</a> -->
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <section id="services" class="bg-gray">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-lg-12 wow fadeIn">
+                    <h1>Some of the things I do</h1>
+                    <hr class="colored">
+                </div>
+            </div>
+            <div class="row text-center content-row">
+                <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay=".2s">
+                    <div class="about-content">
+                        <i class="fa fa-bar-chart fa-4x"></i>
+                        <h3>Data Analytics</h3>
+                        <p> I enjoy crunching huge datasets and finding patterns in a sea of data. Currently, I am exploring the world of Big Data and have spent the last few months working on projects to strengthen my skills. </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay=".4s">
+                    <div class="about-content">
+                        <i class="fa fa-code fa-4x"></i>
+                        <h3>Programming</h3>
+                        <p> I love programming because it challenges my mind by  constantly pushing  me to find better, more efficient, ways to accomplish my tasks. In the world of software development, you can never stop learning. </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay=".6s">
+                    <div class="about-content">
+                        <i class="fa fa-cogs fa-4x"></i>
+                        <h3>Robotics</h3>
+                        <p> Building robots has always been my passion since high school. My creations include robots which print braille , shoot LEGO bullets autonomously and navigate obstacle courses. Recently I have taken an interest towards embedded systems as well.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+   
+
+    
+   
+
+    <section id ="projects">
+        <div class="container text-center wow fadeIn">
+            <h2>Projects</h2>
+            <hr class="colored">
+            <p>Here are some of the projects that I've worked on.</p>
+
+            <div class="row content-row">
+                <div class="col-lg-12">
+                    <div class="portfolio-filter">
+                        <ul id="filters" class="clearfix">
                             <li>
-                                Applied various trigonometric equations to generate beautiful figures using only straight lines
+                                <span class="filter active" data-filter="programming robotics">All</span>
+                            </li>
+                            <li>
+                                <span class="filter" data-filter="programming">Programming</span>
+                            </li>
+                           
+                            <li>
+                                <span class="filter" data-filter="robotics">Robotics</span>
                             </li>
                         </ul>
-                        <div class="techused">Technologies used :
-                                <btn class="software-skill">HTML Graphics Libraries </btn>&#8226;
-                                <btn class="software-skill">JavaScript</btn>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="portfoliolist">
+
+                        <div class="portfolio programming " data-cat="programming" href="#portfolioModal1" data-toggle="modal">
+                            <div class="portfolio-wrapper">
+                                <img src="assets/img/portfolio/grid/programming/1.jpg" alt="">
+                                <div class="caption">
+                                    <div class="caption-text">
+                                        <a class="text-title">NYC Subway Data Analysis</a>
+                                        <span class="text-category">Used   machine learning to discover interesting   trends in the New York Subway.</span>
+                                    </div>
+                                    <div class="caption-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio programming" data-cat="programming" href="#portfolioModal2" data-toggle="modal">
+                            <div class="portfolio-wrapper">
+                                <img src="assets/img/portfolio/grid/programming/2.jpg" alt="">
+                                <div class="caption">
+                                    <div class="caption-text">
+                                        <a class="text-title">Market Simulator</a>
+                                        <span class="text-category">Investigated commonly practiced computational investing techniques </span>
+                                    </div>
+                                    <div class="caption-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio programming" data-cat="programming" href="#portfolioModal3" data-toggle="modal">
+                            <div class="portfolio-wrapper">
+                                <img src="assets/img/portfolio/grid/programming/3.png" alt="">
+                                <div class="caption">
+                                    <div class="caption-text">
+                                        <a class="text-title">TransitCheck</a>
+                                        <span class="text-category">A web application to alert users of situational delays in the TTC</span>
+                                    </div>
+                                    <div class="caption-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio programming" data-cat="programming"  data-toggle="modal">
+                            <div class="portfolio-wrapper">
+                                <img src="assets/img/portfolio/grid/programming/4.png" alt="">
+                                <div class="caption">
+                                    <div class="caption-text">
+                                        <a class="text-title">PathFinder</a>
+                                        <span class="text-category">Developed search algorithms for a pacman agent to navigate a maze</span>
+                                    </div>
+                                    <div class="caption-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio robotics" data-cat="robotics" href="#portfolioModal4" data-toggle="modal">
+                            <div class="portfolio-wrapper">
+                                <img src="assets/img/portfolio/grid/robotics/1.png" alt="">
+                                <div class="caption">
+                                    <div class="caption-text">
+                                        <a class="text-title">BrailleStorm</a>
+                                        <span class="text-category"> LEGO based braille printer
+                                        </span>
+                                    </div>
+                                    <div class="caption-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio robotics" data-cat="robotics" href="#portfolioModal5" data-toggle="modal">
+                            <div class="portfolio-wrapper">
+                                <img src="assets/img/portfolio/grid/robotics/2.jpeg" alt="">
+                                <div class="caption">
+                                    <div class="caption-text">
+                                        <a class="text-title"> Automatic Turret</a>
+                                        <span class="text-category"> Robotic solution to automatically shoot at targets within a given range</span>
+                                    </div>
+                                    <div class="caption-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio programming" data-cat="programming"  data-toggle="modal">
+                            <div class="portfolio-wrapper">
+                                <img src="assets/img/portfolio/grid/programming/5.jpg" alt="">
+                                <div class="caption">
+                                    <div class="caption-text">
+                                        <a class="text-title">Mathematical Art</a>
+                                        <span class="text-category">Used trignometry and HTML Canvas to generate figures using only straight lines</span>
+                                    </div>
+                                    <div class="caption-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio programming" data-cat="programming"  data-toggle="modal">
+                            <div class="portfolio-wrapper">
+                                <img src="assets/img/portfolio/grid/programming/6.jpg" alt="">
+                                <div class="caption">
+                                    <div class="caption-text">
+                                        <a class="text-title">Rubik's Cube Solver</a>
+                                        <span class="text-category">Java Based Application to accept faces of a Rubik's cube and generate a solution</span>
+                                    </div>
+                                    <div class="caption-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio robotics" data-cat="robotics" data-toggle="modal">
+                            <div class="portfolio-wrapper">
+                                <img src="assets/img/portfolio/grid/robotics/4.jpg" alt="">
+                                <div class="caption">
+                                    <div class="caption-text">
+                                        <a class="text-title">Potentiometer</a>
+                                        <span class="text-category">Designed and implemented a  potentiometer using Arduino to accurately measure small distances</span>
+                                    </div>
+                                    <div class="caption-bg"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+
+                        
+
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work"class="testimonials bg-gray" >
+        <div  class="container wow fadeIn">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <div class="testimonials-carousel">
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <p class="lead">" Abhijith works effectively in a team environment, adapts to changing requirements, and has certainly shown he has the ability to learn new technology"</p>
+                                    <div class="testimonial-info">
+                                        <div class="testimonial-author">
+                                            <span class="name">Henry Chin</span>
+                                            <p class="small">R&amp;D Director, Protecode</p>
+                                            
+                                        </div>
+                                    </div>
+                                    <hr class="colored">
+                                    <p class="quote">At Protecode I primarily worked with web crawlers and databases to come up with software solutions to download large amounts of open source projects from code hosting websites.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <p class="lead">" Abhijith did a commendable job developing automation test scripts.  He worked well independently as well as in collaboration within the team and has a thirst and curiosity for technology"</p>
+                                    <div class="testimonial-info">
+                                        <div class="testimonial-author">
+                                            <span class="name">Hai Hoang</span>
+                                            <p class="small">Sr. Software Developer, HubHead Corp</p>
+                                            
+                                        </div>
+                                    </div>
+                                    <hr class="colored">
+                                    <p class="quote">At HubHead I mainly wrote testing scripts (both unit and end to end) for a cloud based data quality solution which was developed using agile methodologies.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <!--
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <p class="lead"> " Abhijith did a commendable job developing automation test scripts.  He worked well independently as well as in collaboration within the team and has a thirst and curiosity for technology"
+                                    </p>
+                                    <div class="testimonial-info">
+                                        <div class="testimonial-author">
+                                            <span class="name">Hai Hoang</span>
+                                            <p class="small">Sr. Software Developer, HubHead Corp</p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                    <hr class="colored">
+                                    <p class="quote"> At HubHead I mainly wrote testing scripts (both unit and end to end) for a cloud based data quality solution which was developed using agile methodologies.</p>
+                                    
+                            </div>
+                               
+                        </div>
+                    -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--
+    <section id="contact">
+        <div class="container wow fadeIn">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact Me</h2>
+                    <hr class="colored">
+                    <p>I'd love to hear about your next project! Send me a message and I will see if I can help.</p>
+                </div>
+            </div>
+            <div class="row content-row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Phone Number</label>
+                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Message</label>
+                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn btn-outline-dark">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+   
+            
+            
+
+
+
+
+        
+    
+    
+
+    <!-- Portfolio Modals -->
+
+    <!-- Example Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/creative/bg-aside.jpg')">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <h2>New York Subway Data Analysis</h2>
+                            <hr class="colored">
+                            <p>I acquired weather data and  turnstile data from the New York Subway and analyzed it to find trends between weahter patterns and subway usage. I did a lot of data warehousing to acquire and organize a large data set, afterwhich I analyzed it using some machine learning algorithms and statistical techniques to see how my data set was distributed. I also used visualisation libaries to map how the population moves from  station to station.</p>
+                        </div>
+                        
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <ul class="list-inline item-details">
+                                <!--<li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>-->
+                                <li>Date:
+                                    <strong>September 2014
+                                    </strong>
+                                </li>
+                                <li>Role:
+                                    <strong>Data Scientist
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
+                </div>
             </div>
-        -->
-
-
-             </div>
-
         </div>
-        <!-- /.row -->
-
     </div>
-    <!-- /.container -->
 
-    <!-- jQuery Version 1.11.1 -->
-    <script src="js/jquery.js"></script>
+    <!-- Example Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/creative/bg-aside.jpg')">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <h2>Market Simulator &amp; Computational Investment</h2>
+                            <hr class="colored">
+                            <p>I built a stock market simulator which takes a starting capital along with buy and sell orders for dates in the past and then evaluate how much money was made by the given portfolio over a givne time period using data acquired from Yahoo Finance API. 
+                            </p>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+                            <p>After making the simulator I conducted event studies where I generated buy and sell orders using Bollinger Bands which basically predict when stock prices go above and below their typical value. Based on this I generated buy and sell orders whose performance I measured using the above simulator. I also used some machine learning algorithms to cluster which was the best time periods and best stocks suited to such trades.</p>
+                        </div>
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <ul class="list-inline item-details">
+                                
+                                <li>Date:
+                                    <strong>Dec 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Role:
+                                    <strong>Developer
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Example Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/creative/bg-aside.jpg')">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <h2>TransitCheck </h2>
+                            <hr class="colored">
+                            <p>TransitCheck is a web application I made along with a team for BattleHack 2014, a hackathon organized by PayPal. Quite often we arrive on time for a bus but miss it because it has arrived a minute too early. These situational delays in the TTC can often impact a lot of people adversely. TransitCheck is an application to help with this need.</p> 
+                            <p>Whenever a user detects an anomaly on a given network he/she informs all others who use that bus route of the small change. In return other users can give the first person money as thank you using the PayPal API.</p>
+
+                            <p>I mainly wrote a web crawler to acquire data off the TTC website using some Java Libraries. I also helped in the frontend of the web application.</p>
+                        </div>
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <ul class="list-inline item-details">
+                                <li> <strong><a href="http://battlehacktoronto-ayushbhagat.rhcloud.com/">Visit TransitCheck here !</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong> April 2014
+                                    </strong>
+                                </li>
+                                <li>Role:
+                                    <strong>Database Developer and Front End Programmer</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Example Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/creative/bg-aside.jpg')">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <h2>BrailleStorm  </h2>
+                            <hr class="colored">
+                            <p>
+
+ We won the National Robot Olympiad (Dubai) by building BrailleStorm, a fully functional, semi-autonomous robot which uses a simplistic yet sophisticated design similar to an industry-standard printer. Using a three-axis movement mechanism, a programmable pin cartridge imprints Braille characters in real-time using a Bluetooth user-input NXT device. </p>
+
+ <p>
+
+Primarily made using LEGO Mindstorms NXT Education kit components, the robot is an innovative and cost-effective solution. Besides being portable and easy-to-assemble, the imprint accuracy and efficient printing make it a cost-effective communication alternative.Implementing real-world design concepts, it consists of over 60 gears in various advanced gear-train mechanisms to enable triple-axis movements. The model also exhibits structural symmetry in all the components, such as the dual-pin pricking cartridge, linear axis movement beams and paper feeder. Most of the code used to implement this project was written using LeJOS, a Java based language for progrmaming LEGO robots.
+</p>
+                        </div>
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <ul class="list-inline item-details">
+                                
+                                <li>Date:
+                                    <strong>Nov 2012</a>
+                                    </strong>
+                                </li>
+                                <li>Role:
+                                    <strong>Project Manager &amp; Developer
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Example Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/creative/bg-aside.jpg')">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <h2>Automatic Turret  </h2>
+                            <hr class="colored">
+                            <p>As part of a course project, we built and designed a robot using LEGO Mindstorms which scanned the environment for targets and automatically shot at them. There was also an additional remote control we added to give users full manual control of the turret. It was also possible to control the robot using Bluetooth technologies from a regular smartphone.
+                            </p>
+                            <p>I did most of the mechanical design on this project, given my previous experience with LEGO Mindstorms. I also wrote some C code to give manual control of the robot. In addition to the above I also wrote code to clean the data we received from our sensors.</p>
+                        </div>
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <ul class="list-inline item-details">
+                                
+                                <li>Date:
+                                    <strong>Nov 2013</a>
+                                    </strong>
+                                </li>
+                                <li>Role:
+                                    <strong>Mechanical Designer &amp; Programmer
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Core Scripts -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+
+    <!-- Plugin Scripts -->
+    <script src="assets/js/plugins/jquery.easing.min.js"></script>
+    <script src="assets/js/plugins/classie.js"></script>
+    <script src="assets/js/plugins/cbpAnimatedHeader.js"></script>
+    <script src="assets/js/plugins/owl-carousel/owl.carousel.js"></script>
+    <script src="assets/js/plugins/jquery.magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/plugins/jquery.fs.wallpaper.js"></script>
+    <script src="assets/js/plugins/jquery.mixitup.js"></script>
+    <script src="assets/js/plugins/wow/wow.min.js"></script>
+    <script src="assets/js/contact_me.js"></script>
+    <script src="assets/js/plugins/jqBootstrapValidation.js"></script>
+
+    <!-- Vitality Theme Scripts -->
+    <script src="assets/js/vitality.js"></script>
 
 </body>
 
