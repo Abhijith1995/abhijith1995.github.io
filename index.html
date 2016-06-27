@@ -207,8 +207,8 @@
       <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay=".6s">
         <div class="about-content">
           <i class="fa fa-cogs fa-4x"></i>
-          <h3>Robotics</h3>
-          <p> Building robots has always been my passion since high school. My creations include robots which print braille, shoot LEGO bullets autonomously and navigate obstacle courses. Recently I have taken an interest towards building projects using microcontrollers such as the Arduino.</p>
+          <h3>Embedded</h3>
+          <p> Working with robots and low-level embedded systems has always been my passion since high school. I have worked with various systems like an Altera DE-2 board, Arduino, ARM-Keil board, PCBs, LEGO Mindstorms.</p>
         </div>
       </div>
 
@@ -232,7 +232,7 @@
         <div class="portfolio-filter">
           <ul id="filters" class="clearfix">
             <li>
-              <span class="filter active" data-filter="programming robotics data">All</span>
+              <span class="filter active" data-filter="programming embedded data">All</span>
             </li>
             <li>
               <span class="filter" data-filter="programming">Programming</span>
@@ -241,7 +241,7 @@
               <span class="filter" data-filter="data">Data Analytics</span>
             </li>
             <li>
-              <span class="filter" data-filter="robotics">Robotics</span>
+              <span class="filter" data-filter="embedded">Embedded</span>
             </li>
           </ul>
         </div>
@@ -251,6 +251,57 @@
     <div class="row">
       <div class="col-lg-12">
         <div id="portfoliolist">
+
+          <div class="portfolio data " data-cat="data " href="#portfolioModalTumor" data-toggle="modal">
+            <div class="portfolio-wrapper">
+              <img src="assets/img/portfolio/grid/data/1.png" alt="">
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">Tumor Classifier</a>
+                  <span class="text-category"> Developed a binary classifier using breast cancer tumor data from an online dataset</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio programming data" data-cat="programming data" href="#portfolioModalAudioT" data-toggle="modal">
+            <div class="portfolio-wrapper">
+              <img src="assets/img/portfolio/grid/data/2.png" alt="">
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">Audio Transcription</a>
+                  <span class="text-category">Used frequency analysis to transcribe and resynthesize classical piano pieces.</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio  programming embedded" data-cat="programming embedded" href="#portfolioModalKeil" data-toggle="modal">
+            <div class="portfolio-wrapper">
+              <img src="assets/img/portfolio/grid/embedded/keil.jpg" alt="">
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">Keil Projects</a>
+                  <span class="text-category">Developed a game for the ARM-Keil board and a memory allocator that works in O(1) time.</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio  embedded" data-cat="embedded " href="#portfolioModal220" data-toggle="modal">
+            <div class="portfolio-wrapper">
+              <img src="assets/img/portfolio/grid/embedded/mte220.jpg" alt="">
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">Path Follower</a>
+                  <span class="text-category">Soldered light and magnetic sensors onto a PCB to create a path following robot.</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
 
           <div class="portfolio programming data" data-cat="programming data" href="#portfolioModal2" data-toggle="modal">
             <div class="portfolio-wrapper">
@@ -279,9 +330,9 @@
             </div>
           </div>
 
-          <div class="portfolio robotics data" data-cat="robotics data" href="#portfolioModal6" data-toggle="modal">
+          <div class="portfolio embedded data" data-cat="embedded data" href="#portfolioModal6" data-toggle="modal">
             <div class="portfolio-wrapper">
-              <img width="400" src="assets/img/portfolio/grid/robotics/4.png" alt="">
+              <img width="400" src="assets/img/portfolio/grid/embedded/4.png" alt="">
               <div class="caption">
                 <div class="caption-text">
                   <a class="text-title">Makeshift Calliper</a>
@@ -292,9 +343,9 @@
             </div>
           </div>
 
-          <div class="portfolio robotics" data-cat="robotics" href="#portfolioModal5" data-toggle="modal">
+          <div class="portfolio embedded" data-cat="embedded" href="#portfolioModal5" data-toggle="modal">
             <div class="portfolio-wrapper">
-              <img src="assets/img/portfolio/grid/robotics/2.jpeg" alt="">
+              <img src="assets/img/portfolio/grid/embedded/2.jpeg" alt="">
               <div class="caption">
                 <div class="caption-text">
                   <a class="text-title"> Automatic Turret</a>
@@ -317,21 +368,6 @@
               </div>
             </div>
           </div>
-
-          <div class="portfolio robotics" data-cat="robotics" href="#portfolioModal3" data-toggle="modal">
-            <div class="portfolio-wrapper">
-              <img src="assets/img/portfolio/grid/robotics/1.png" alt="">
-              <div class="caption">
-                <div class="caption-text">
-                  <a class="text-title">BrailleStorm</a>
-                  <span class="text-category"> LEGO based braille printer
-                  </span>
-                </div>
-                <div class="caption-bg"></div>
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
     </div>
@@ -343,6 +379,19 @@
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1">
         <div class="testimonials-carousel">
+
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-12">
+                <p class="lead">"Abhijith joined a project, that requires a non-standard approach and was able to adapt to a rapidly changing environment and found ways to apply his existing skills to be successful.</p>
+                <span class="name">Alex Tucker </span>
+                <p class="small">Engineering Manager , Wave</p>
+              </div>
+            </div>
+            <hr class="colored">
+            <p class="quote">At Wave, I worked on the next version of the cloud-based accounting product, writing mainly backend services in Python and Django.</p>
+          </div>
+
           <div class="item">
             <div class="row">
               <div class="col-lg-12">
@@ -402,9 +451,113 @@
 </section>
 <!-- Portfolio Modals -->
 
+<!-- Modal -->
+<div class="portfolio-modal modal fade" id="portfolioModalTumor" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/creative/bg-aside.jpg')">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="modal-body">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <h2>Classifer Performance comparision with a Breast Cancer dataset</h2>
+            <hr class="colored">
+            <p>I built a binary classifer which looked at data from UCI's machine learning repositories to understand the performance of various classifiers on high dimensional data. The dataset I used can be found <a href="https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/">here </a>
+            </p>
+            <p>Using several commonly used classification algorithms I investigated how each performed at classifying the 9 features in the dataset.</p>
+            <p>I used plotting tools to understand how each classfier predict the nature of a tumor based on varying the features over a large amount of data.</p>
+          </div>
+          <div class="col-lg-8 col-lg-offset-2">
+            <ul class="list-inline item-details">
+
+              <li>Date:
+                <strong>April 2016</a>
+                </strong>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="portfolio-modal modal fade" id="portfolioModalAudioT" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/creative/bg-aside.jpg')">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="modal-body">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <h2>Audio Transcription</h2>
+            <hr class="colored">
+            <p>As part of a linear systems and signals course project, I used MATLAB and Fast Fourier Transform to transcribe classical piano pieces such as Beethoven's Fur Elise into sheet music</p>
+            <p> The music was then resynthesized and played back using this transcription</p>
+            <p> Finally, the original song and the new songs were compared to see how accurate both procedures were</p>
+          </div>
+          <div class="col-lg-8 col-lg-offset-2">
+            <ul class="list-inline item-details">
+
+              <li>Date:
+                <strong>Nov 2015</a>
+                </strong>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="portfolio-modal modal fade" id="portfolioModalKeil" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/creative/bg-aside.jpg')">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="modal-body">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <h2>Keil Projects</h2>
+            <hr class="colored">
+            <p>Bouncing Ball Game : I Wrote a game that simulates bouncing balls on the LCD screen of a microcontroller which was implemented using
+              a multi-threaded architecture, semaphore locks and hardware interrupts to interface with peripherals            </p>
+            </p>
+            <p>Half Fit Memory Allocator: For Real Time Operating Systems, every process is mission critical. Hence a memory allocator which performs in O(1) time was developed as part of our Real Time Operating Systems course which allocates and de-allocates memory in O(1) time </p>
+          </div>
+          <div class="col-lg-8 col-lg-offset-2">
+            <ul class="list-inline item-details">
+
+              <li>Date:
+                <strong>Oct- Nov 2015</a>
+                </strong>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Modal -->
-<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/creative/bg-aside.jpg')">
+<div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/creative/bg-aside.jpg')">
   <div class="modal-content">
     <div class="close-modal" data-dismiss="modal">
       <div class="lr">
