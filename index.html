@@ -172,7 +172,7 @@
       <div class="col-md-12 text-center">
         <h1>Hi, I'm Abhijith </h1>
         <hr class="colored">
-        <p>I am a recent Waterloo engineering graduate, with a passion for solving difficult and engaging problems. I have over two years of work experience in software development, where my supervisors and colleagues have described me as a motivated and resourceful individual with a strong ability to learn.
+        <p>I am a recent Waterloo engineering graduate, with a passion for solving difficult and engaging problems. I have two years of work experience in Software Development, where my supervisors and colleagues have described me as a motivated and resourceful individual with a strong ability to learn.
         </p>
       </div>
     </div>
@@ -190,25 +190,26 @@
       </div>
     </div>
     <div class="row text-center content-row">
-      <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay=".2s">
-        <div class="about-content">
-          <i class="fa fa-bar-chart fa-4x"></i>
-          <h3>Data Analytics</h3>
-          <p> I enjoy crunching huge datasets and finding patterns in a sea of data. Currently, I am exploring the world of Big Data Analytics and Machine Learning. I have spent the last few months working on projects at work to enhance my skills in this field. </p>
-        </div>
-      </div>
+
       <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay=".4s">
         <div class="about-content">
-          <i class="fa fa-code fa-4x"></i>
-          <h3>Programming</h3>
-          <p> I love programming because it challenges my mind by  constantly pushing  me to find better, more efficient, ways to accomplish my tasks. One of my favorite parts developing software, is that you can never stop learning.</p>
+          <i class="fa fa-cloud fa-4x"></i>
+          <h3>Web Development</h3>
+          <p> I am primarily a full stack developer, specialising in backend roles. Most of experience comes through my internships and projects where I built websites and APIs with React, Node.js, Express, Python and Django. </p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay=".2s">
+        <div class="about-content">
+          <i class="fa fa-line-chart fa-4x"></i>
+          <h3>Data Engineering</h3>
+          <p> At Amazon, I worked for the Advertising Data Platform, where I learnt Big Data technologies like Hadoop, Hive and Spark. I was also exposed to developing large scale data pipelines and aggregates.</p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 wow fadeIn" data-wow-delay=".6s">
         <div class="about-content">
           <i class="fa fa-cogs fa-4x"></i>
-          <h3>Embedded Systems</h3>
-          <p> Working with robots and low-level embedded systems has always been my passion since high school. I have worked with various systems like an Altera DE-2 board, Arduino, ARM-Keil board, PCBs, LEGO Mindstorms.</p>
+          <h3>DevOps</h3>
+          <p>At Capital One and Amazon, I was responsible for both the code I wrote and securely deploying it without any downtime. I am a huge fan of AWS and the toolsets it provides to developers.</p>
         </div>
       </div>
 
@@ -225,20 +226,17 @@
   <div class="container text-center wow fadeIn">
     <h2>Projects</h2>
     <hr class="colored">
-    <p>Here are some of the projects that I've worked on.</p>
+    <p>Over the past five years in university I have worked on a lot of different projects. Here are some of the more memorable ones.</p>
 
     <div class="row content-row">
       <div class="col-lg-12">
         <div class="portfolio-filter">
           <ul id="filters" class="clearfix">
             <li>
-              <span class="filter active" data-filter="programming embedded data">All</span>
+              <span class="filter active" data-filter="programming embedded">All</span>
             </li>
             <li>
-              <span class="filter" data-filter="programming">Programming</span>
-            </li>
-            <li>
-              <span class="filter" data-filter="data">Data Analytics</span>
+              <span class="filter" data-filter="programming">Web Development</span>
             </li>
             <li>
               <span class="filter" data-filter="embedded">Embedded Systems</span>
@@ -252,32 +250,45 @@
       <div class="col-lg-12">
         <div id="portfoliolist">
 
-          <div class="portfolio data " data-cat="data " href="#portfolioModalTumor" data-toggle="modal">
+          <div class="portfolio programming" data-cat="programming" href="#portfolioModalVents" data-toggle="modal">
             <div class="portfolio-wrapper">
-              <img src="assets/img/portfolio/grid/data/1.png" alt="">
+              <img src="assets/img/portfolio/grid/programming/vents.jpg" alt="">
               <div class="caption">
                 <div class="caption-text">
-                  <a class="text-title">Tumor Classifier</a>
-                  <span class="text-category"> Developed a binary classifier using breast cancer tumor data from an online dataset</span>
+                  <a class="text-title">Smart Vents</a>
+                  <span class="text-category">IoT system to control individual room temperatures in a home.</span>
                 </div>
                 <div class="caption-bg"></div>
               </div>
             </div>
           </div>
-          <div class="portfolio programming data" data-cat="programming data" href="#portfolioModalAudioT" data-toggle="modal">
+          <div class="portfolio embedded" data-cat="embedded" href="#portfolioModalRobot" data-toggle="modal">
             <div class="portfolio-wrapper">
-              <img src="assets/img/portfolio/grid/data/2.png" alt="">
+              <img src="assets/img/portfolio/grid/embedded/turtlebot.jpg" alt="">
               <div class="caption">
                 <div class="caption-text">
-                  <a class="text-title">Audio Transcription</a>
-                  <span class="text-category">Used frequency analysis to transcribe and resynthesize classical piano pieces.</span>
+                  <a class="text-title">Autonomous robots</a>
+                  <span class="text-category"> C++ projects on a small robot to learn path-planning, mapping and localization.</span>
                 </div>
                 <div class="caption-bg"></div>
               </div>
             </div>
           </div>
 
-          <div class="portfolio  programming embedded" data-cat="programming embedded" href="#portfolioModalKeil" data-toggle="modal">
+          <div class="portfolio  programming " data-cat="programming" href="#portfolioModalChatbot" data-toggle="modal">
+            <div class="portfolio-wrapper">
+              <img src="assets/img/portfolio/grid/programming/chatbot.jpg" alt="">
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">Personal Finance Chatbot</a>
+                  <span class="text-category">Facebook Messenger chatbot to keep track of expenses and savings goals.</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio embedded" data-cat="embedded " href="#portfolioModalKeil" data-toggle="modal">
             <div class="portfolio-wrapper">
               <img src="assets/img/portfolio/grid/embedded/keil.jpg" alt="">
               <div class="caption">
@@ -290,84 +301,6 @@
             </div>
           </div>
 
-          <div class="portfolio  embedded" data-cat="embedded " href="#portfolioModal220" data-toggle="modal">
-            <div class="portfolio-wrapper">
-              <img src="assets/img/portfolio/grid/embedded/mte220.jpg" alt="">
-              <div class="caption">
-                <div class="caption-text">
-                  <a class="text-title">Path Follower</a>
-                  <span class="text-category">Soldered light and magnetic sensors onto a PCB to create a path following robot.</span>
-                </div>
-                <div class="caption-bg"></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="portfolio programming data" data-cat="programming data" href="#portfolioModal2" data-toggle="modal">
-            <div class="portfolio-wrapper">
-              <img src="assets/img/portfolio/grid/programming/2.jpg" alt="">
-              <div class="caption">
-                <div class="caption-text">
-                  <a class="text-title">Market Simulator</a>
-                  <span class="text-category">Investigated commonly used computational investing techniques </span>
-                </div>
-                <div class="caption-bg"></div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="portfolio programming" data-cat="programming" href="#portfolioModal2" data-toggle="modal">
-            <div class="portfolio-wrapper">
-              <img src="assets/img/portfolio/grid/programming/3.png" alt="">
-              <div class="caption">
-                <div class="caption-text">
-                  <a class="text-title">TransitCheck</a>
-                  <span class="text-category">A web application to alert users of situational delays in the TTC</span>
-                </div>
-                <div class="caption-bg"></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="portfolio embedded data" data-cat="embedded data" href="#portfolioModal6" data-toggle="modal">
-            <div class="portfolio-wrapper">
-              <img width="400" src="assets/img/portfolio/grid/embedded/4.png" alt="">
-              <div class="caption">
-                <div class="caption-text">
-                  <a class="text-title">Makeshift Calliper</a>
-                  <span class="text-category">Measured small distances using an IR sensor and Arduino</span>
-                </div>
-                <div class="caption-bg"></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="portfolio embedded" data-cat="embedded" href="#portfolioModal5" data-toggle="modal">
-            <div class="portfolio-wrapper">
-              <img src="assets/img/portfolio/grid/embedded/2.jpeg" alt="">
-              <div class="caption">
-                <div class="caption-text">
-                  <a class="text-title"> Automatic Turret</a>
-                  <span class="text-category"> Robotic solution to automatically shoot at targets within a given range</span>
-                </div>
-                <div class="caption-bg"></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="portfolio programming" data-cat="programming" data-toggle="modal">
-            <div class="portfolio-wrapper">
-              <a href="http://www.abhijith.info/mathematical_art"><img src="assets/img/portfolio/grid/programming/5.png" alt=""></a>
-              <div class="caption">
-                <div class="caption-text">
-                  <a class="text-title">Mathematical Art</a>
-                  <span class="text-category">Used trignometry and HTML Canvas to generate figures using only straight lines</span>
-                </div>
-                <div class="caption-bg"></div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -385,7 +318,7 @@
               <div class="col-lg-12">
                 <p class="lead">"Abhijith joined a project, that requires a non-standard approach and was able to adapt to a rapidly changing environment and found ways to apply his existing skills to be successful.</p>
                 <span class="name">Alex Tucker </span>
-                <p class="small">Engineering Manager , Wave</p>
+                <p class="small">Engineering Manager, Wave</p>
               </div>
             </div>
             <hr class="colored">
@@ -452,7 +385,7 @@
 <!-- Portfolio Modals -->
 
 <!-- Modal -->
-<div class="portfolio-modal modal fade" id="portfolioModalTumor" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/creative/bg-aside.jpg')">
+<div class="portfolio-modal modal fade" id="portfolioModalVents" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/creative/bg-aside.jpg')">
   <div class="modal-content">
     <div class="close-modal" data-dismiss="modal">
       <div class="lr">
@@ -464,18 +397,17 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2">
-            <h2>Classifer Performance comparision with a Breast Cancer dataset</h2>
+            <h2>Smart Vents</h2>
             <hr class="colored">
-            <p>I built a binary classifer which looked at data from UCI's machine learning repositories to understand the performance of various classifiers on high dimensional data. The dataset I used can be found <a href="https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/">here </a>
+            <p>For my final year design project, I worked with a group of five to a smart vents system that allows users to control the temperature of rooms inside their homes. </a>
             </p>
-            <p>Using several commonly used classification algorithms I investigated how each performed at classifying the 9 features in the dataset.</p>
-            <p>I used plotting tools to understand how each classfier predict the nature of a tumor based on varying the features over a large amount of data.</p>
+            <p>I mainly wrote the backend using Node.js, MongoDb and Heroku, integrating it with third party APIs. Contact me to see a live demo of the <a href="https://fydp-revent-frontend.herokuapp.com/">product </a>. You can visit our project blog <a href="https://projectrevent.wordpress.com/">here.</p>
           </div>
           <div class="col-lg-8 col-lg-offset-2">
             <ul class="list-inline item-details">
 
               <li>Date:
-                <strong>April 2016</a>
+                <strong>Jan 2018 - March 2018</a>
                 </strong>
               </li>
             </ul>
@@ -486,40 +418,7 @@
     </div>
   </div>
 </div>
-<!-- Modal -->
-<div class="portfolio-modal modal fade" id="portfolioModalAudioT" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/creative/bg-aside.jpg')">
-  <div class="modal-content">
-    <div class="close-modal" data-dismiss="modal">
-      <div class="lr">
-        <div class="rl">
-        </div>
-      </div>
-    </div>
-    <div class="modal-body">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <h2>Audio Transcription</h2>
-            <hr class="colored">
-            <p>As part of a linear systems and signals course project, I used MATLAB and Fast Fourier Transform to transcribe classical piano pieces such as Beethoven's Fur Elise into sheet music</p>
-            <p> The music was then resynthesized and played back using this transcription</p>
-            <p> Finally, the original song and the new songs were compared to see how accurate both procedures were</p>
-          </div>
-          <div class="col-lg-8 col-lg-offset-2">
-            <ul class="list-inline item-details">
 
-              <li>Date:
-                <strong>Nov 2015</a>
-                </strong>
-              </li>
-            </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 <!-- Modal -->
 <div class="portfolio-modal modal fade" id="portfolioModalKeil" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/creative/bg-aside.jpg')">
   <div class="modal-content">
@@ -556,209 +455,6 @@
   </div>
 </div>
 
-<!-- Modal -->
-<div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/creative/bg-aside.jpg')">
-  <div class="modal-content">
-    <div class="close-modal" data-dismiss="modal">
-      <div class="lr">
-        <div class="rl">
-        </div>
-      </div>
-    </div>
-    <div class="modal-body">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <h2>Market Simulator &amp; Computational Investment</h2>
-            <hr class="colored">
-            <p>I built a stock market simulator which takes a starting capital along with buy and sell orders for dates in the past and then evaluate how much money was made by the given portfolio over a givne time period using data acquired from Yahoo Finance API.
-            </p>
-
-            <p>After making the simulator I conducted event studies where I generated buy and sell orders using Bollinger Bands which basically predict when stock prices go above and below their typical value. Based on this I generated buy and sell orders whose performance I measured using the above simulator. I also used some machine learning algorithms to cluster which was the best time periods and best stocks suited to such trades.</p>
-          </div>
-          <div class="col-lg-8 col-lg-offset-2">
-            <ul class="list-inline item-details">
-
-              <li>Date:
-                <strong>Dec 2014</a>
-                </strong>
-              </li>
-              <li>Role:
-                <strong>Developer
-                </strong>
-              </li>
-            </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Example Modal 3 -->
-<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/creative/bg-aside.jpg')">
-  <div class="modal-content">
-    <div class="close-modal" data-dismiss="modal">
-      <div class="lr">
-        <div class="rl">
-        </div>
-      </div>
-    </div>
-    <div class="modal-body">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <h2>TransitCheck </h2>
-            <hr class="colored">
-            <p>TransitCheck is a web application I made along with a team for BattleHack 2014, a hackathon organized by PayPal. Quite often we arrive on time for a bus but miss it because it has arrived a minute too early. These situational delays in the TTC can often impact a lot of people adversely. TransitCheck is an application to help with this need.</p>
-            <p>Whenever a user detects an anomaly on a given network he/she informs all others who use that bus route of the small change. In return other users can give the first person money as thank you using the PayPal API.</p>
-
-            <p>I mainly wrote a web crawler to acquire data off the TTC website using some Java Libraries. I also helped in the frontend of the web application.</p>
-          </div>
-          <div class="col-lg-8 col-lg-offset-2">
-            <ul class="list-inline item-details">
-              <li> <strong><a href="http://battlehacktoronto-ayushbhagat.rhcloud.com/">Visit TransitCheck here !</a>
-              </strong>
-            </li>
-            <li>Date:
-              <strong> April 2014
-              </strong>
-            </li>
-            <li>Role:
-              <strong>Database Developer and Front End Programmer</a>
-              </strong>
-            </li>
-          </ul>
-          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-
-<!-- Example Modal 4 -->
-<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/creative/bg-aside.jpg')">
-  <div class="modal-content">
-    <div class="close-modal" data-dismiss="modal">
-      <div class="lr">
-        <div class="rl">
-        </div>
-      </div>
-    </div>
-    <div class="modal-body">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <h2>BrailleStorm  </h2>
-            <hr class="colored">
-            <p>
-
-              We won the National Robot Olympiad (Dubai) by building BrailleStorm, a fully functional, semi-autonomous robot which uses a simplistic yet sophisticated design similar to an industry-standard printer. Using a three-axis movement mechanism, a programmable pin cartridge imprints Braille characters in real-time using a Bluetooth user-input NXT device. </p>
-
-              <p>
-
-                Primarily made using LEGO Mindstorms NXT Education kit components, the robot is an innovative and cost-effective solution. Besides being portable and easy-to-assemble, the imprint accuracy and efficient printing make it a cost-effective communication alternative.Implementing real-world design concepts, it consists of over 60 gears in various advanced gear-train mechanisms to enable triple-axis movements. The model also exhibits structural symmetry in all the components, such as the dual-pin pricking cartridge, linear axis movement beams and paper feeder. Most of the code used to implement this project was written using LeJOS, a Java based language for progrmaming LEGO robots.
-              </p>
-            </div>
-            <div class="col-lg-8 col-lg-offset-2">
-              <ul class="list-inline item-details">
-
-                <li>Date:
-                  <strong>Nov 2012</a>
-                  </strong>
-                </li>
-                <li>Role:
-                  <strong>Project Manager &amp; Developer
-                  </strong>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Example Modal 4 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/creative/bg-aside.jpg')">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl">
-          </div>
-        </div>
-      </div>
-      <div class="modal-body">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-              <h2>Automatic Turret  </h2>
-              <hr class="colored">
-              <p>As part of a course project, we built and designed a robot using LEGO Mindstorms which scanned the environment for targets and automatically shot at them. There was also an additional remote control we added to give users full manual control of the turret. It was also possible to control the robot using Bluetooth technologies from a regular smartphone.
-              </p>
-              <p>I did most of the mechanical design on this project, given my previous experience with LEGO Mindstorms. I also wrote some C code to give manual control of the robot. In addition to the above I also wrote code to clean the data we received from our sensors.</p>
-            </div>
-            <div class="col-lg-8 col-lg-offset-2">
-              <ul class="list-inline item-details">
-
-                <li>Date:
-                  <strong>Nov 2013</a>
-                  </strong>
-                </li>
-                <li>Role:
-                  <strong>Mechanical Designer &amp; Programmer
-                  </strong>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Example Modal 5 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/creative/bg-aside.jpg')">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl">
-          </div>
-        </div>
-      </div>
-      <div class="modal-body">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-              <h2>Potentiometer</h2>
-              <hr class="colored">
-              <p>As part of a course project, we built and designed a sensor to accurately measure small distances using an Infrared Sensor, Arduino and Python.
-              </p>
-              <p>I along with my team, developed algorithms to train a data model to predict distances using supervised machine learning algorithms like Nearest Neighbour Search and Polynomial Regression. Additionally we gathered a dataset manually by placing the IR sensor at a known given distance in front a small object and measuring three sets of values for each position. </p>
-              <strong><a href="https://github.com/Abhijith1995/potentiometer">You can learn more about our project here !</a>
-              </strong>
-            </div>
-            <div class="col-lg-8 col-lg-offset-2">
-              <ul class="list-inline item-details">
-
-                <li>Date:
-                  <strong>March 2015</a>
-                  </strong>
-                </li>
-                <li>Role:
-                  <strong>Algorithms Developer
-                  </strong>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 
   <!-- Core Scripts -->
